@@ -39,9 +39,4 @@ function newMarkup(picture) {
     .join("");
 }
 
-list.style.display = "flex";
-list.style.flexWrap = "wrap";
-list.style.justifyContent = "space-around";
-list.style.gap = "25px";
-
 list.innerHTML = newMarkup(images);
